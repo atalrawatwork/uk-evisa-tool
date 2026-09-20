@@ -57,7 +57,7 @@ export default function HomePage() {
         {/* Decorative nod to a passport’s machine-readable zone. Pure CSS/text, no image to load. */}
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute inset-x-0 bottom-0 select-none overflow-hidden whitespace-nowrap font-mono text-5xl leading-none tracking-widest text-white[0.06] sm:text-7xl"
+          className="pointer-events-none absolute inset-x-0 bottom-0 select-none overflow-hidden whitespace-nowrap font-mono text-5xl leading-none tracking-widest text-white\/\[0\.06] sm:text-7xl"
         >
           {"<".repeat(140)}
         </div>
