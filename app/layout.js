@@ -24,6 +24,9 @@ export const metadata = {
     title: `${SITE.name}: BRP to eVisa checklist tool`,
     description: SITE.description,
   },
+    verification: {
+    google: "5qBtk0UUBU7xmo0ZSVbWTw0ZIrr5zAVl_DSOP_rDSa8",
+  },
   // Lets AdSense verify site ownership from the HTML source.
   ...(SITE.adsenseClient && { other: { "google-adsense-account": SITE.adsenseClient } }),
 };
