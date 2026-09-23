@@ -12,18 +12,22 @@ const heading = Source_Serif_4({ subsets: ["latin"], variable: "--font-heading",
 export const metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name}: BRP to eVisa checklist tool`,
+    default: `UK e-Visa Guide: Get Share Code & Update BRP | ${SITE.name}`,
     template: `%s | ${SITE.name}`,
   },
-  description: SITE.description,
+  description: ' How To generate and check your UK e-Visa share code, link your passport with eVisa, and update your UKVI account easily.',
   alternates: { canonical: "./" },
   openGraph: {
     type: "website",
     locale: "en_GB",
     siteName: SITE.name,
-    title: `${SITE.name}: BRP to eVisa checklist tool`,
-    description: SITE.description,
+    title: `UK e-Visa Guide: Get Share Code & Update BRP | ${SITE.name}`,
+    description: 'Learn how to generate and check your UK e-Visa share code, link your passport with eVisa, and update your UKVI account easily.',
   },
+  verification: {
+    google: "5qbtK0UUBU7xmo0ZSVbWtw0ZIrr5zAVl_DSOP_rDSa8",
+  },
+
     verification: {
     google: "5qBtk0UUBU7xmo0ZSVbWTw0ZIrr5zAVl_DSOP_rDSa8",
   },
