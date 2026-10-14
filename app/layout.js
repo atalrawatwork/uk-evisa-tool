@@ -28,9 +28,6 @@ export const metadata = {
     google: "5qbtK0UUBU7xmo0ZSVbWtw0ZIrr5zAVl_DSOP_rDSa8",
   },
 
-    verification: {
-    google: "5qBtk0UUBU7xmo0ZSVbWTw0ZIrr5zAVl_DSOP_rDSa8",
-  },
   // Lets AdSense verify site ownership from the HTML source.
   ...(SITE.adsenseClient && { other: { "google-adsense-account": SITE.adsenseClient } }),
 };
@@ -52,7 +49,7 @@ export default function RootLayout({ children }) {
           Skip to main content
         </a>
         <Header />
-        fjhahfhakjg///.khjsfghsahih
+       
         <main id="main" className="flex-1">
           {children}
         </main>

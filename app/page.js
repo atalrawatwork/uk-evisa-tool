@@ -128,7 +128,7 @@ export default function HomePage() {
         {/* ---------- Explainer content (useful, original text helps AdSense approval) ---------- */}
         <section aria-labelledby="explainer-title" className="mt-14 max-w-3xl print:hidden">
           <h2 id="explainer-title" className="font-serif text-2xl font-semibold text-navy-900">
-            What changed for BRP holders?
+            What changed for BRP holders?gfdhdh.......
           </h2>
           <div className="mt-4 space-y-4 leading-7">
             <p>
