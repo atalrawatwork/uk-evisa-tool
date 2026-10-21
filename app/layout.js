@@ -23,9 +23,10 @@ export const metadata = {
     siteName: SITE.name,
     title: `UK e-Visa Guide: Get Share Code & Update BRP | ${SITE.name}`,
     description: 'Learn how to generate and check your UK e-Visa share code, link your passport with eVisa, and update your UKVI account easily.',
-  },
+  },  
+  
   verification: {
-    google: "5qbtK0UUBU7xmo0ZSVbWtw0ZIrr5zAVl_DSOP_rDSa8",
+    google: "5qBtk0UUBU7xmo0ZSVbWTw0ZIrr5zAVl_DSOP_rDSa8",
   },
 
   // Lets AdSense verify site ownership from the HTML source.
