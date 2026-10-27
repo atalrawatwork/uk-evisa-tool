@@ -7,6 +7,7 @@ import { SITE } from "@/lib/site";
 //google analytics
 import { GoogleAnalytics } from '@next/third-parties/google';
 
+
 // Variable fonts, self-hosted by Next.js at build time. `swap` keeps text visible while loading.
 const body = Public_Sans({ subsets: ["latin"], variable: "--font-body", display: "swap" });
 const heading = Source_Serif_4({ subsets: ["latin"], variable: "--font-heading", display: "swap" });
@@ -68,8 +69,13 @@ export default function RootLayout({ children }) {
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`}
           />
         )}
-        <GoogleAnalytics gaId="G-RRGGF2S94H" />
+         <Script id="microsoft-clarity" strategy="afterInteractive">
+          {`window.clarity=window.clarity||function(){(clarity.q=clarity.q||[]).push(arguments)};
+          const t=document.createElement("script");t.async=1;t.src="https://clarity.ms";
+          document.head.appendChild(t);`}
+        </Script>
       </body>
+      <GoogleAnalytics gaId="G-RRGGF2S94H" />
     </html>
   );
 }
