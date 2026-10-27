@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { SITE } from "@/lib/site";
+//google analytics
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 // Variable fonts, self-hosted by Next.js at build time. `swap` keeps text visible while loading.
 const body = Public_Sans({ subsets: ["latin"], variable: "--font-body", display: "swap" });
@@ -66,6 +68,7 @@ export default function RootLayout({ children }) {
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`}
           />
         )}
+        <GoogleAnalytics gaId="G-RRGGF2S94H" />
       </body>
     </html>
   );
